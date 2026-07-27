@@ -1,0 +1,25 @@
+# Flurry
+
+> Flurry is a mobile app analytics platform originally built by Flurry, Inc. and acquired by Yahoo. It provided event/session analytics, audience segmentation, funnels, crash and performance metrics, push messaging, and remote config for iOS, Android, Flutter, React Native, and Unity apps via client-side SDKs. The Flurry Analytics service sunset on 2024-03-15; the SDKs and developer resources remain published. Backed historically by Union Square Ventures and Version One Ventures.
+
+## Developer
+- [Flurry Developer Portal](https://developer.yahoo.com/flurry/): Yahoo Developer Network home for Flurry.
+- [Get Started](https://developer.yahoo.com/flurry/#get-started): SDK integration entry point.
+- [Support](https://developer.yahoo.com/flurry/support.html): Flurry support.
+- [GitHub Organization](https://github.com/flurry): Official Flurry SDKs and samples.
+- [Blog](https://www.flurry.com/blog/): Flurry / mobile analytics blog.
+
+## SDKs
+- [Android SDK (Maven)](https://central.sonatype.com/artifact/com.flurry.android/analytics): com.flurry.android:analytics.
+- [iOS SDK (CocoaPods)](https://cocoapods.org/pods/Flurry-iOS-SDK): Flurry-iOS-SDK.
+- [Flutter SDK (pub.dev)](https://pub.dev/packages/flutter_flurry_sdk): flutter_flurry_sdk.
+- [React Native SDK (npm)](https://www.npmjs.com/package/react-native-flurry-sdk): react-native-flurry-sdk.
+- [Unity SDK](https://github.com/flurry/unity-flurry-sdk): unity-flurry-sdk.
+
+## Security
+- [security.txt](https://flurry.com/.well-known/security.txt): RFC 9116 contact/policy (Yahoo Intigriti bug bounty).
+- [Coordinated Vulnerability Disclosure Policy](https://legal.yahoo.com/xw/en/yahoo/coordinated-vulnerability-disclosure-program-policy/index.html)
+
+## Legal
+- [Terms of Service](https://developer.yahoo.com/flurry/legal-privacy/terms-service/)
+- [Developer Privacy](https://legal.yahoo.com/us/en/yahoo/privacy/products/developer/index.html)

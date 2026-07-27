@@ -1,0 +1,52 @@
+generated: '2026-07-19'
+method: searched
+source: https://github.com/flurry + Maven Central + CocoaPods + pub.dev + npm
+note: Flurry is a client-side mobile analytics SDK product (no server REST client
+  libraries). These are the official first-party mobile/game-engine SDKs. The Flurry
+  Analytics service sunset on 2024-03-15; SDK artifacts remain published.
+packages:
+- language: java
+  registry: maven
+  name: com.flurry.android:analytics
+  url: https://central.sonatype.com/artifact/com.flurry.android/analytics
+  install: implementation 'com.flurry.android:analytics:14.4.0'
+  official: true
+- language: java
+  registry: maven
+  name: com.flurry.android:marketing
+  url: https://central.sonatype.com/artifact/com.flurry.android/marketing
+  install: implementation 'com.flurry.android:marketing:14.4.0'
+  official: true
+- language: java
+  registry: maven
+  name: com.flurry.android:ads
+  url: https://central.sonatype.com/artifact/com.flurry.android/ads
+  install: implementation 'com.flurry.android:ads:14.4.0'
+  official: true
+- language: objective-c
+  registry: cocoapods
+  name: Flurry-iOS-SDK
+  url: https://cocoapods.org/pods/Flurry-iOS-SDK
+  install: pod 'Flurry-iOS-SDK/FlurrySDK'
+  official: true
+  source: https://github.com/flurry/flurry-ios-sdk
+- language: dart
+  registry: pub.dev
+  name: flutter_flurry_sdk
+  url: https://pub.dev/packages/flutter_flurry_sdk
+  install: flutter pub add flutter_flurry_sdk
+  official: true
+  source: https://github.com/flurry/flutter-flurry-sdk
+- language: javascript
+  registry: npm
+  name: react-native-flurry-sdk
+  url: https://www.npmjs.com/package/react-native-flurry-sdk
+  install: npm install react-native-flurry-sdk
+  official: true
+  source: https://github.com/flurry/react-native-flurry-sdk
+- language: csharp
+  registry: github
+  name: unity-flurry-sdk
+  url: https://github.com/flurry/unity-flurry-sdk
+  install: import the Unity plugin package
+  official: true

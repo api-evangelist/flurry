@@ -1,9 +1,28 @@
 aid: flurry
 name: Flurry
-description: Flurry is a company surfaced as a portfolio company of union-square-ventures, version-one-ventures
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Flurry is a mobile app analytics platform originally built by Flurry, Inc. and
+  acquired by Yahoo. It gave app developers event and session analytics, audience
+  segmentation, funnels, journeys, crash and performance metrics, push messaging,
+  and remote config across iOS, Android, Flutter, React Native, and Unity through
+  client-side SDKs rather than a server REST API. The Flurry Analytics service
+  sunset on 2024-03-15, but the official SDKs, developer portal, and legal/support
+  resources remain published. Flurry was backed by Union Square Ventures and
+  Version One Ventures and surfaced into the API Evangelist network from their
+  portfolios.
 url: https://raw.githubusercontent.com/api-evangelist/flurry/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://avatars.githubusercontent.com/u/818945?v=4
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,11 +30,19 @@ x-backed-by:
 - version-one-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status-note: Flurry Analytics service sunset 2024-03-15; SDKs and dev resources remain.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Analytics
+- Mobile
+- SDK
+- Application Analytics
+- Crash Reporting
+- Push Notifications
+- Advertising
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,42 @@ maintainers:
 common:
 - type: Website
   url: https://flurry.com
+- type: DeveloperPortal
+  url: https://developer.yahoo.com/flurry/
+- type: GettingStarted
+  url: https://developer.yahoo.com/flurry/#get-started
+- type: Support
+  url: https://developer.yahoo.com/flurry/support.html
+- type: Blog
+  url: https://www.flurry.com/blog/
+- type: GitHubOrganization
+  url: https://github.com/flurry
+- type: SignUp
+  url: https://login.flurry.com/signup
+- type: Login
+  url: https://dev.flurry.com/
+- type: TermsOfService
+  url: https://developer.yahoo.com/flurry/legal-privacy/terms-service/
+- type: PrivacyPolicy
+  url: https://legal.yahoo.com/us/en/yahoo/privacy/products/developer/index.html
+- type: Packages
+  url: packages/flurry-packages.yml
+- type: SDKs
+  url: packages/flurry-packages.yml
+- type: WellKnown
+  url: well-known/flurry-well-known.yml
+- type: SecurityTxt
+  url: well-known/flurry-security.txt
+- type: VulnerabilityDisclosure
+  url: security/flurry-vulnerability-disclosure.yml
+- type: Security
+  url: https://flurry.com/.well-known/security.txt
+- type: DomainSecurity
+  url: security/flurry-domain-security.yml
+- type: LLMsTxt
+  url: llms/flurry-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
